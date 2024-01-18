@@ -1,6 +1,5 @@
-num=int(input("Please enter a number"))
-my_string=str(num)
-num1=my_string[0]
-num2=my_string[1]
-num3=int(num1)+int(num2)
-print(num3)
+num=input()
+first_digit=int(num[0])
+second_digit=int(num[1])
+sum=first_digit + second_digit
+print(sum)
