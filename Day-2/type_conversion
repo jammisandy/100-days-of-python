@@ -1,0 +1,4 @@
+num_char = len(input("what is your name?"))
+print(type(num_char))
+num_str_char = str(num_char)
+print("There are " + num_str_char + " characters in your name")
