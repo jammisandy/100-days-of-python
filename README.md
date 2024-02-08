@@ -1,2 +1,2 @@
 # 100-days-of-python
-100 days of pyhton coding
+100 days of pyhthon coding
