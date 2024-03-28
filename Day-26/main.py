@@ -31,3 +31,22 @@ list_of_Strings = 9, 0, 32, 8, 2, 8, 64, 29, 42, 99
 numbers = [int(x) for x in list_of_Strings]
 result = [num for num in numbers if num%2==0]
 print(result)
+
+##Data Overlap
+
+with open("file1.txt") as file1:
+  list1 = file1.readlines()
+with open("file2.txt") as file2:
+  list2 = file2.readlines()
+
+result = [int(num) for num in list1 if num in list2]
+
+
+
+
+
+# Write your code above 👆
+print(result)
+
+##################
+
