@@ -85,8 +85,8 @@ if abs(diff_percent) > 1:
          message = client.messages \
                     .create(
                          body=article,
-                         from_='+12566188877',
-                         to='+919035932042'
+                         from_=VIRTUAL_NUM,
+                         to=YOUR_NUMBER
                      )
 
 
